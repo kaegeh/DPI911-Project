@@ -7,6 +7,7 @@ Local Security Authority (LSA) is the component that handles user authentication
 To demonstrate this technique, we are going to use Powersploit's Install-SSP module to try to install an SSP (security support provider) DLL and add it to HKLM\SYSTEM\CurrentControlSet\Control\Lsa\Security Packages. With LSA protection enabled on the machine, it should not allow the latter and generate an event with the code 3033.
 
 #Attack
+
 ![LSASS](https://user-images.githubusercontent.com/36422282/55600805-ca415400-572b-11e9-9660-0b221b744399.PNG)
 
 #Splunk Filter

@@ -12,4 +12,5 @@ NOTE This filter is specific and relates to the specific attack itself, as requi
 #Splunk Filter
 host="AGENT-2" source="WinEventLog:Microsoft-Windows-CodeIntegrity/Operational" EventCode=3033
 
+![lsassfilter](https://user-images.githubusercontent.com/36422282/55600839-fbba1f80-572b-11e9-80ee-65c59362b95a.png)
 

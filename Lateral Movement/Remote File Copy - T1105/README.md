@@ -9,7 +9,7 @@ To demonstrate this technique, specifically using the certutil command, we are g
 
 #Attack
 
-![Remote File Copy](https://user-images.githubusercontent.com/36422282/55614168-70a44e00-575a-11e9-9c9e-d3c81743b74f.png)
+![Remote File Copy](https://user-images.githubusercontent.com/36422282/55614179-7437d500-575a-11e9-92e6-325f7c800ae7.PNG)
 
 #Splunk Filter
 
@@ -17,4 +17,4 @@ To detect the technique we demonstrated, we should monitor Microsoft-Windows-Sys
 
 host="AGENT-2" source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" CommandLine="certutil* http*"
 
-![Remote File Copy](https://user-images.githubusercontent.com/36422282/55614179-7437d500-575a-11e9-92e6-325f7c800ae7.PNG)
+![Remote File Copy](https://user-images.githubusercontent.com/36422282/55614168-70a44e00-575a-11e9-9c9e-d3c81743b74f.png)

@@ -19,4 +19,4 @@ To detect the technique we demonstrated, we should monitor Microsoft-Windows-Sys
 
 host="AGENT-2" source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" CommandLine="net* view*"
 
-![Remote System Discovery](https://user-images.githubusercontent.com/36422282/55612921-65035800-5757-11e9-9899-a0fbf93d6b75.PNG)
+![Remote System Discovery](https://user-images.githubusercontent.com/36422282/55612957-78162800-5757-11e9-840c-af131d9dbf44.png)

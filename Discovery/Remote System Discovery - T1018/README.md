@@ -19,4 +19,4 @@ To detect the technique we demonstrated, we should monitor Microsoft-Windows-Sys
 
 host="AGENT-2" source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" CommandLine="net* view*"
 
-![Hidden Files and Directories](https://user-images.githubusercontent.com/36422282/55605835-4f386780-5744-11e9-8f06-97292b3fdcc8.png)
+![Remote System Discovery](https://user-images.githubusercontent.com/36422282/55612770-0342ee00-5757-11e9-9f07-3088c12ae069.PNG)

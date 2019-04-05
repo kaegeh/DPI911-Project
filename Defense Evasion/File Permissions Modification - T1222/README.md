@@ -6,6 +6,7 @@
 Attackers change file permissions to enable malicious activity using those files.
 
 To demonstrate this technique, we are going to use Cacls to try to modify permissions for a DLL file in Windows/System32. Access was denied, but the event should still be logged.
+
 #Attack
 ![File Permissions Modification 1](https://user-images.githubusercontent.com/36422282/55605146-2498df80-5741-11e9-8de8-4451edfe8794.PNG)
 

@@ -6,8 +6,8 @@ Hooking involves redirecting calls to the Windows API functions that are stored 
  * Import address table (IAT) hooking: use modification to a process’s IAT, where pointers to imported API functions are stored
  * Inline hooking: overwrites first bytes in API function to redirect the code flow.  
  
-Adversaries can use to load and execute malicious code within the context of another process, which masks the code execution while also allowing access to the process’s memory and possibly elevated privileges. It can also provide persistence when the functions are called through normal use continuously.  
-Rootkits use hooking to hide files, processes, registry etc.     
+Adversaries can use to load and execute malicious code within the context of another process, which masks the code execution while also allowing access to the process’s memory and possibly elevated privileges. It can also provide persistence when the functions are called through normal use continuously.    
+Rootkits use hooking to hide files, processes, registry etc.       
 To demonstrate this technique we use mavinject to inject a DLL into an already running process. 
 
 

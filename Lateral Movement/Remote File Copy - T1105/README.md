@@ -1,17 +1,17 @@
 
-#Remote File Copy - T1105
+# Remote File Copy - T1105
 
-#Description
+## Description
 
 Attackers will very likely attempt to enumerate security software, such as firewalls, anti-viruses or IDS software, installed on the system.
 
 To demonstrate this technique, specifically using the certutil command, we are going to use this command to pull a file from the web (Atomic Test #7).
 
-#Attack
+## Attack
 
 ![Remote File Copy](https://user-images.githubusercontent.com/36422282/55614179-7437d500-575a-11e9-92e6-325f7c800ae7.PNG)
 
-#Splunk Filter
+## Splunk Filter
 
 To detect the technique we demonstrated, we should monitor Microsoft-Windows-Sysmon/Operational for certutil commands that have a URL as an argument.
 

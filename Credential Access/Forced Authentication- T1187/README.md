@@ -9,10 +9,12 @@ The hashed credentials should be captured
 
 ## Execution
 ### .SCF File
-![responder](https://user-images.githubusercontent.com/36422282/55609401-96c3f100-574e-11e9-99d4-dfee06da59de.JPG)
+![fascf file](https://user-images.githubusercontent.com/36422282/55609403-96c3f100-574e-11e9-8616-deb782d30681.JPG)
+
 
 ### Captured Credentials
-![fascf file](https://user-images.githubusercontent.com/36422282/55609403-96c3f100-574e-11e9-8616-deb782d30681.JPG)
+![responder](https://user-images.githubusercontent.com/36422282/55609401-96c3f100-574e-11e9-99d4-dfee06da59de.JPG)
+
 
 ## Detection
 ### Splunk Filter

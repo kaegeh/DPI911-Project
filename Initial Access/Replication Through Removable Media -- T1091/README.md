@@ -7,6 +7,9 @@ In this scenario, an adversary attempts to gain initial access onto a victim mac
 #Attack
 
 #Splunk Filter
+host="WIN-QE8T94VOGX0" source="WinEventLog:Microsoft-Windows-Sysmon/Operational" ParentCommandLine="cmd /c \"\"E:\\launch.bat\" /min\""
+
+#Splunk Capture
 ![Replication through Removable Media filter](https://user-images.githubusercontent.com/36422282/55597663-b0e4db80-571c-11e9-9928-8494278e462b.PNG)
 
 

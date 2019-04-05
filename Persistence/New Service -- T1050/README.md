@@ -1,7 +1,7 @@
 # New Service- T1050
 
 ## Technique Description
-Programs or applications called services that perform background system functions can be executed at start-up. The information related to a service is stored in the registry. Adversaries may install new service and may disguise it with benign software. They can be created under admin but executed under SYSTEM privileges so they can be used for privilege escalation. \n
+Programs or applications called services that perform background system functions can be executed at start-up. The information related to a service is stored in the registry. Adversaries may install new service and may disguise it with benign software. They can be created under admin but executed under SYSTEM privileges so they can be used for privilege escalation.  
 To demonstrate this technique we create a new service and monitor the event ID for service creation.
 
 ## Assumptions 

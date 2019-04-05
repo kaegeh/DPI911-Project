@@ -10,4 +10,4 @@ Attackers can disable sensors or block traffic/events from being received by sen
 
 #Splunk Filter
 
-To detect the technique we demonstrated, one should regularly check and monitor the last time a sensor has been heard from.
+To detect the technique we demonstrated, on the centralized server one should regularly check and monitor the last time a remote sensor has been heard from.

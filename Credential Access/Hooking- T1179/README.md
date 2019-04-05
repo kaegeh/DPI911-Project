@@ -1,4 +1,4 @@
-# Hookng- T1179
+# Hooking- T1179
 
 ## Technique Description
 Hooking involves redirecting calls to the Windows API functions that are stored in DLL’s and can be implemented in 3 ways:

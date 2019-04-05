@@ -7,7 +7,7 @@ LSASS is an abbervation that stands for, "Local Security Authority Subsystem Ser
 #Attack
 ![LSASS](https://user-images.githubusercontent.com/36422282/55600805-ca415400-572b-11e9-9660-0b221b744399.PNG)
 
-*NOTE This filter is specific and relates to the specific attack itself, as required to show correctnes within writing filters
+*NOTE* This filter is specific and relates to the specific attack itself, as required to show correctnes within writing filters
 
 #Splunk Filter
 

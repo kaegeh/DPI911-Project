@@ -8,6 +8,7 @@ Process Injection occurs when arbitrary code is executed in the memory address s
 To demonstrate this technique, we are going to use the tool called RemoteDLLInjector and inject a malicious DLL into a process.
 
 #Attack
+
 ![Process Injection 1](https://user-images.githubusercontent.com/36422282/55604356-53ad5200-573d-11e9-80c9-4425c73844df.PNG)
 
 The Sysmon agent on the host is configured to detect DLL injection with CreateRemoteThread and LoadLibrary (Sysmon Event ID 8)

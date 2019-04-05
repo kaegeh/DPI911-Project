@@ -18,3 +18,6 @@ Macros are commands and instructions that can be grouped together as a single co
 #Visibility
 
 We used GRR to create a flow within the Registry HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Word\Security and look for changes. We were able to detect that there was a DWORD (32-bit) value added that was, "AllowDDE."
+
+![grrallowdde](https://user-images.githubusercontent.com/36422282/55603369-640efe00-5738-11e9-9c21-082900bf046b.PNG)
+

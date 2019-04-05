@@ -10,6 +10,10 @@ Starting this service should run PowerShell and output the given sentence.
 ![modifying existing service](https://user-images.githubusercontent.com/36422282/55607849-2b2c5480-574b-11e9-9c90-d75f54407559.JPG)
 
 ## Detection
+
+### Filter
+Splunk Filter = host="DESKTOP-EHTEINI" sc config CommandLine="sc  config Fax binPath= \"C:\\windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe -noexit -c \\\"write-host 'T1031 Test'\\\"\""
+
 ### Splunk
 ![image](https://user-images.githubusercontent.com/36422282/55607880-4008e800-574b-11e9-8d98-4d8674c008ed.png)
 

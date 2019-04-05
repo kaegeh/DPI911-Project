@@ -1,6 +1,6 @@
 # Modifying Existing Service- T1031
 ## Technique Description
-Windows service configuration information including the path to the service’s exe file is stored in the registry. The configurations can be modified using sc.exe or reg command. Modifying services can be used for the persistence of a malware. Using existing services also provides a type of masquerading which makes detection harder. Modifying existing services may interrupt their functionality or even enable services that were disabled or not commonly used. 
+Windows service configuration information including the path to the service’s exe file is stored in the registry. The configurations can be modified using sc.exe or reg command. Modifying services can be used for the persistence of a malware. Using existing services also provides a type of masquerading which makes detection harder. Modifying existing services may interrupt their functionality or even enable services that were disabled or not commonly used.  
 To demonstrate this technique we use sc.exe to change the bin path of Fax to output a sentence using PowerShell.
 
 ## Assumption

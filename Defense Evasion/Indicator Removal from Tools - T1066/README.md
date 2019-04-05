@@ -1,15 +1,15 @@
-#Image Indicator Removal from Tools - T1066
+# Image Indicator Removal from Tools - T1066
 
-#Description
+## Description
 
 Attackers remove indicators (signatures) from their tools in order to evade detection by anti-viruses or other detection software. 
 To demonstrate this technique, we ran PowerSploit's Find-AVSignature module. This module searches through file contents and locates single-byte AV signatures inside it.
 
-#Attack
+## Attack
 
 ![Indicator Removal from Tools](https://user-images.githubusercontent.com/36422282/55608999-a7c03280-574d-11e9-84fe-02ebae0198a3.PNG)
 
-#Splunk Filter
+## Splunk Filter
 
 To detect the technique we demonstrated, we should monitor Microsoft-Windows-PowerShell/Operational Event ID 4104 (command executed) events that contain the "Find-AVSignature" string, which would indicate execution of the PowerSploit module with the same name.
 

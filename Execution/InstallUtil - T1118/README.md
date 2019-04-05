@@ -15,3 +15,4 @@ NOTE This filter is specific and relates to the specific attack itself, as requi
 host="DESKTOP-EHTEINI" CommandLine="csc.exe  /target:library T1118.cs" OR CommandLine="InstallUtil.exe  /logfile= /LogToConsole=false /U T1118.dll"
 
 #Splunk Capture 
+![installutil](https://user-images.githubusercontent.com/36422282/55598210-a710a780-571f-11e9-8d02-439c57c49f9e.png)

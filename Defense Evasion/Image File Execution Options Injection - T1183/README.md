@@ -7,6 +7,7 @@ IFEO are used by attackers to hide execution of a process. For example, IEFOs ca
 To demonstrate this technique, we are going to start evil.exe when notepad.exe exits
 
 #Attack
+
 ![Image File Execution Options 1](https://user-images.githubusercontent.com/36422282/55606414-ab03f000-5746-11e9-926e-69d32608c835.PNG)
 
 #Splunk Filter

@@ -14,6 +14,6 @@ To demonstrate this technique, we are going to use Powersploit's Install-SSP mod
 
 To detect this technique, we should monitor Microsoft-Windows-Codeintegrity/Operational log for event code 3033 entries. Event code 3033 means that a code integrity check determined that a process (usually lsass.exe) attempted to load a driver that did not meet the Microsoft signing level requirements.
 
-host="Agent-2" source="WinEventLog:Microsoft-Windows-CodeIntegrity/Operational" EventCode="3033"
+host="AGENT-2" source="WinEventLog:Microsoft-Windows-PowerShell/Operational" EventCode=4104 "Get-ServiceUnquoted"
 ![Path Interception Filter](https://user-images.githubusercontent.com/36422282/55603110-0928d700-5737-11e9-8f53-f5614429142a.png)
 

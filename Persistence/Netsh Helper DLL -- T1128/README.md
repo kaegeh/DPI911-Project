@@ -1,7 +1,7 @@
 # Netsh Helper DLL- T1128
 
 ## Technique Description
-Netsh contains functionality to add helper DLL’s for extending functionality of the utility. The registry for the paths registered to netsh.exe is at HKLM\SOFTWARE\Microsoft\Netsh. Netsh with helper DLL’s can be used to execute arbitrary code when netsh.exe is executed. 
+Netsh contains functionality to add helper DLL’s for extending functionality of the utility. The registry for the paths registered to netsh.exe is at HKLM\SOFTWARE\Microsoft\Netsh. Netsh with helper DLL’s can be used to execute arbitrary code when netsh.exe is executed.  
   To demonstrate this technique we put a DLL in the system32 folder. Run netsh add helper $DLL. And when netsh is ran a calculator is also ran. 
 
 ## Assumptions

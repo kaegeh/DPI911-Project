@@ -15,7 +15,7 @@ The Sysmon agent on the host is configured to detect DLL injection with CreateRe
 
 #Splunk Filter
 
-To detect this technique, we should monitor Microsoft-Windows-PowerShell/Operational log for event code 4104 (command execution) entries. The command should contain the "Get-ServiceUnquoted" string (name of PowerSploit module, used to detect unquoted service paths, vulnerable to path interception).
+To detect this technique, we should monitor Microsoft-Windows-Sysmon/Operational log for event code 8 (suspicious CreateRemoteThread)
 
 Splunk Filter = host="AGENT-2" source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=8
 ![Process Injection Filter](https://user-images.githubusercontent.com/36422282/55604563-6ecc9180-573e-11e9-8e4d-41ae51168510.png)

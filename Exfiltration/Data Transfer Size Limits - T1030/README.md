@@ -10,7 +10,7 @@ In this scenario, an adversary simply exfiltrates data in fixed sizes, rather th
 
 - cd /tmp/
 - dd if=/dev/urandom of=/tmp/victim-whole-file bs=25M count=1
--split -b 5000000 /tmp/victim-whole-file
+- split -b 5000000 /tmp/victim-whole-file
 - ls -l
 
 *NOTE* This filter is specific and relates to the specific attack itself, as required to show correctnes within writing filters

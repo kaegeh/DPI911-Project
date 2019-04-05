@@ -3,8 +3,16 @@
 ## Technique Description
 Windows allows programs to have direct access to logical volumes. Programs with direct access may read and write files directly from the drive by analyzing file system data structures. This bypasses techniques Windows file access controls as well as file system monitoring tools. 
 To demonstrate this technique we are going to use Powersploit’s Invoke-ninjacopy command. 
+
 ## Assumption
 NinjaCopy should be able to copy files that are specified. 
-#Execution
 
-#Detection
+## Execution
+![file system logical offsets- ninja copy](https://user-images.githubusercontent.com/36422282/55609089-ddfdb200-574d-11e9-9d6b-a8ddd27e5f6d.JPG)
+
+## Detection
+### Splunk Filter
+Splunk Filter = host="DESKTOP-EHTEINI" source="XmlWinEventLog:Microsoft-Windows-PowerShell/Operational" EventCode=4104 "invoke-ninjacopy"
+
+### Splunk Capture
+![image](https://user-images.githubusercontent.com/36422282/55609125-f40b7280-574d-11e9-8174-870a33a38dd3.png)

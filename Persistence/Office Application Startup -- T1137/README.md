@@ -7,4 +7,6 @@ Macros are commands and instructions that can be grouped together as a single co
 #Attack 
 
 - First we enable the use of DDEAuto within the registry located at HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Word\Security
+![allowdde](https://user-images.githubusercontent.com/36422282/55602401-5b67f900-5733-11e9-80fc-340ccf57b49d.PNG)
+
 - Then we will use DDE within Microsoft Word to perform code execution

@@ -17,4 +17,4 @@ To detect the technique we demonstrated, we should monitor Microsoft-Windows-Sys
 
 host="AGENT-2" source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" CommandLine="netsh* advfirewall*"
 
-![Security Software Discovery](https://user-images.githubusercontent.com/36422282/55613422-a6483780-5758-11e9-82e0-021c6e3ce4bf.PNG)
+![Security Software Discovery](https://user-images.githubusercontent.com/36422282/55613457-bcee8e80-5758-11e9-9e31-a60fe7db5095.png)

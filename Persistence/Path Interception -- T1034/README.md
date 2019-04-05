@@ -8,6 +8,7 @@ Path Interception happens when a malicious executable is placed in a specific pa
 To demonstrate this technique, we are going to use Powersploit's Get-ServiceUnquoted module. This module detects unquoted service paths, vulnerable to path interception.
 
 #Attack
+
 ![Path Interception](https://user-images.githubusercontent.com/36422282/55603147-40978380-5737-11e9-9bb7-5ad36999b3e6.PNG)
 
 #Splunk Filter

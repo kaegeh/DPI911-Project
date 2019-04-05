@@ -2,7 +2,7 @@
 
 ## Technique Description 
 Spoolsv.exe can be used to load a DLL located in System32 folder that is ran under SYSTEM permissions or by writing the pathname of the DLL to HKLM\SYSTEM\CurrentControlSet\Control\Print\Monitors. These techniques can be used to load malicious code at start-up which are persistent and will execute as SYSTEM.   
-To demonstrate this technique we edit the registry to HKLM\SYSTEM\CurrentControlSet\Control\Print\Monitors. 
+To demonstrate this technique we edit the registry of HKLM\SYSTEM\CurrentControlSet\Control\Print\Monitors. 
 
 ## Assumptions
 Malicious code should be run at start-up.

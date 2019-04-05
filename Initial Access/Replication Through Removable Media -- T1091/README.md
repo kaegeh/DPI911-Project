@@ -8,7 +8,7 @@ In this scenario, an adversary attempts to gain initial access onto a victim mac
 
 ![replication through removable media](https://user-images.githubusercontent.com/36422282/55601016-a03c6180-572c-11e9-9fff-fa683a2785a6.JPG)
 
-*NOTE* This filter is specific and relates to the specific attack itself, as required to show correctnes within writing filters
+*NOTE* This filter is specific and relates to the specific attack itself, as required to show correctness within writing filters
 
 #Splunk Filter
 

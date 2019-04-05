@@ -1,15 +1,15 @@
-#Screen Capture - T1113
+# Screen Capture - T1113
 
-#Description
+## Description
 
 Attackers can capture the screen of a compromised host. 
 To demonstrate this technique, we ran PowerSploit's Get-TimedScreenshot module. This module can take screenshots at regular intervals and save them to a specified directory.
 
-#Attack
+## Attack
 
 ![Screen Capture](https://user-images.githubusercontent.com/36422282/55612076-6df32a00-5755-11e9-9e8c-e55eeecfdf11.PNG)
 
-#Splunk Filter
+## Splunk Filter
 
 To detect the technique we demonstrated, we should monitor Microsoft-Windows-PowerShell/Operational Event ID 4104 (command executed) events that contain the "Get-TimedScreenshot" string, which would indicate execution of the PowerSploit module with the same name.
 

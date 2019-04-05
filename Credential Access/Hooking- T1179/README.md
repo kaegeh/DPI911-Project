@@ -2,9 +2,9 @@
 
 ## Technique Description
 Hooking involves redirecting calls to the Windows API functions that are stored in DLL’s and can be implemented in 3 ways:  
-Markup : * Bullet list	Hooks Procedures: intercept and executed designed code in response to events such as messages, keystrokes
- Markup : * Bullet list	Import address table (IAT) hooking: use modification to a process’s IAT, where pointers to imported API functions are stored
- Markup : * Bullet list	Inline hooking: overwrites first bytes in API function to redirect the code flow. 
+* Bullet list	Hooks Procedures: intercept and executed designed code in response to events such as messages, keystrokes
+ * Bullet list	Import address table (IAT) hooking: use modification to a process’s IAT, where pointers to imported API functions are stored
+ * Bullet list	Inline hooking: overwrites first bytes in API function to redirect the code flow. 
 Adversaries can use to load and execute malicious code within the context of another process, which masks the code execution while also allowing access to the process’s memory and possibly elevated privileges. It can also provide persistence when the functions are called through normal use continuously.
 Rootkits use hooking to hide files, processes, registry etc.   
 To demonstrate this technique we use mavinject to inject a DLL into an already running process. 

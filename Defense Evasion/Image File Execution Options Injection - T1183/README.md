@@ -4,7 +4,7 @@
 
 IFEO are used by attackers to hide execution of a process. For example, IEFOs can enable an arbitrary program to launch when another arbitrary program exits.
 
-To demonstrate this technique, we are going to start evil.exe when notepad.exe exits
+To demonstrate this technique, we are going to start evil.exe when notepad.exe exits.
 
 ## Attack
 

@@ -13,7 +13,8 @@ Macros are commands and instructions that can be grouped together as a single co
 ![Capture](https://user-images.githubusercontent.com/36422282/55603128-22ca1e80-5737-11e9-90d9-ebe15ff3c09d.PNG)
 
 -This launches calculator.exe because embedded within the field, is DDEAUTO to launch calc.exe
-![ddeembedded](https://user-images.githubusercontent.com/36422282/55603128-22ca1e80-5737-11e9-90d9-ebe15ff3c09d.PNG)
+![ddeembedded](https://user-images.githubusercontent.com/36422282/55603213-8fddb400-5737-11e9-89ce-e74f630146ab.PNG)
 
 #Visibility
+
 We used GRR to create a flow within the Registry HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Word\Security and look for changes. We were able to detect that there was a DWORD (32-bit) value added that was, "AllowDDE."

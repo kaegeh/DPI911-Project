@@ -16,7 +16,7 @@ In this scenario, an adversary simply exfiltrates data in fixed sizes, rather th
 
 #Splunk Filter
 
-host="DESKTOP-H25LQ8L" *dd.exe*
+host="DESKTOP-H25LQ8L" * dd.exe *
 
 #Splunk Capture
 ![deedee](https://user-images.githubusercontent.com/36422282/55600452-0d022c80-572a-11e9-89c1-6b58c399d4c6.PNG)

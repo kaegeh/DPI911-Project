@@ -14,11 +14,11 @@ Starting this service should run PowerShell and output the given sentence.
 ### Filter
 Splunk Filter = host="DESKTOP-EHTEINI" sc config CommandLine="sc  config Fax binPath= \"C:\\windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe -noexit -c \\\"write-host 'T1031 Test'\\\"\""
 
-### Splunk
+### Splunk Capture
 ![image](https://user-images.githubusercontent.com/36422282/55607880-4008e800-574b-11e9-8d98-4d8674c008ed.png)
 
 ### Visibility- GRR
 ![image](https://user-images.githubusercontent.com/36422282/55607923-59119900-574b-11e9-8a78-f7ec64ba646b.png)
 
-### Visibility Osquery
+### Visibility- Osquery
 ![image](https://user-images.githubusercontent.com/36422282/55607937-5fa01080-574b-11e9-8803-966be6929152.png)

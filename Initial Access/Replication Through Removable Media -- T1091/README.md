@@ -6,5 +6,6 @@ In this scenario, an adversary attempts to gain initial access onto a victim mac
 
 
 #Splunk Filter
-![InstallUtil](https://user-images.githubusercontent.com/36422282/55597636-885ce180-571c-11e9-9f4b-89a68bd32f89.jpg)
+![Replication through Removable Media filter](https://user-images.githubusercontent.com/36422282/55597663-b0e4db80-571c-11e9-9928-8494278e462b.PNG)
+
 

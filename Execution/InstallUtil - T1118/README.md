@@ -10,6 +10,7 @@ InstallUtil allows for an adversary to be able to perform code execution via the
 
 NOTE This filter is specific and relates to the specific attack itself, as required to show correctnes within writing filters
 
-#Splunk Filter host="DESKTOP-EHTEINI" CommandLine="csc.exe  /target:library T1118.cs" OR CommandLine="InstallUtil.exe  /logfile= /LogToConsole=false /U T1118.dll"
+#Splunk Filter
+host="DESKTOP-EHTEINI" CommandLine="csc.exe  /target:library T1118.cs" OR CommandLine="InstallUtil.exe  /logfile= /LogToConsole=false /U T1118.dll"
 
 #Splunk Capture 

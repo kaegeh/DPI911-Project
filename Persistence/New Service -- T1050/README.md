@@ -13,6 +13,9 @@ The Service creation event ID should be in the event viewer.
 
 ## Detection
 ### Splunk Filter
+
+NOTE: This filter is specific and relates to the specific attack technique itself.
+
 Splunk Filter = host="DESKTOP-EHTEINI" EventCode=4697
 
 ### Splunk capture

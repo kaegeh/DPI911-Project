@@ -9,7 +9,6 @@ InstallUtil allows for an adversary to be able to perform code execution via the
 
 ![InstallUtil_SplunkforwarderExample](https://user-images.githubusercontent.com/36422282/55603450-bea85a00-5738-11e9-9b58-22d4ea6398c0.PNG)
 
-NOTE This filter is specific and relates to the specific attack itself, as required to show correctness within writing filters
 
 ## Splunk Filter
 

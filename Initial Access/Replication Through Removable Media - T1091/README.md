@@ -9,11 +9,10 @@ In this scenario, an adversary attempts to gain initial access onto a victim mac
 
 ![replication through removable media](https://user-images.githubusercontent.com/36422282/55601016-a03c6180-572c-11e9-9fff-fa683a2785a6.JPG)
 
-### Splunk Filter
+## Splunk Filter
 
 *NOTE* This filter is specific and relates to the specific attack technique itself.
 
 host="WIN-QE8T94VOGX0" source="WinEventLog:Microsoft-Windows-Sysmon/Operational" ParentCommandLine="cmd /c \"\"E:\\launch.bat\" /min\""
 
-### Splunk Capture
 ![Replication through Removable Media filter](https://user-images.githubusercontent.com/36422282/55597663-b0e4db80-571c-11e9-9928-8494278e462b.PNG)

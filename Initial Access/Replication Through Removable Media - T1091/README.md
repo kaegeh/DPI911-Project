@@ -11,7 +11,7 @@ In this scenario, an adversary attempts to gain initial access onto a victim mac
 
 ### Splunk Filter
 
-*NOTE* This filter is specific and relates to the specific attack itself, as required to show correctness within writing filters
+*NOTE* This filter is specific and relates to the specific attack technique itself.
 
 host="WIN-QE8T94VOGX0" source="WinEventLog:Microsoft-Windows-Sysmon/Operational" ParentCommandLine="cmd /c \"\"E:\\launch.bat\" /min\""
 

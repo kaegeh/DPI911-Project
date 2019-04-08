@@ -15,6 +15,9 @@ To demonstrate this technique we use mavinject to inject a DLL into an already r
 ![hooking](https://user-images.githubusercontent.com/36422282/55609607-1225a280-574f-11e9-8093-62bb26324d9b.JPG)
 
 ## Detection
+
+NOTE: This filter is specific and relates to the specific attack technique itself.
+
 ### Splunk Filter
 Splunk Filter = host="DESKTOP-H25LQ8L" CommandLine=*mavinject.exe* 
 

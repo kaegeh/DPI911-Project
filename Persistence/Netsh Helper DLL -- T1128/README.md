@@ -13,6 +13,9 @@ Running the netsh command should run the helper dll and pop up calculator.
 ## Detection
 
 ### Splunk Filter
+
+NOTE: This filter is specific and relates to the specific attack technique itself.
+
 Splunk Filter = host="DESKTOP-EHTEINI" ParentCommandLine="netsh  add helper NetshHelperBeacon.dll"
 
 ### Splunk Capture

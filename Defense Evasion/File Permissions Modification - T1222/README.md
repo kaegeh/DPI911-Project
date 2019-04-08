@@ -18,6 +18,7 @@ We can see the event in Event Viewer, Windows Security Log:
 
 To detect this technique, we should monitor Windows Security Log for event ID 4670 (permissions on an object were changed/attempted to be changed)
 
+NOTE: This filter is specific and relates to the specific attack technique itself.
 
 host="AGENT-2" source="WinEventLog:Security" EventCode=4670
 ![File Permissions Modification](https://user-images.githubusercontent.com/36422282/55605117-092dd480-5741-11e9-9b61-ad92717f760e.png)

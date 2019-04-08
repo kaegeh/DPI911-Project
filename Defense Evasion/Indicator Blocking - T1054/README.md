@@ -10,4 +10,6 @@ Attackers can disable sensors or block traffic/events from being received by sen
 
 ## Splunk Filter
 
+NOTE: This filter is specific and relates to the specific attack technique itself.
+
 To detect the technique we demonstrated, on the centralized server one should regularly check and monitor the last time a remote sensor has been heard from.

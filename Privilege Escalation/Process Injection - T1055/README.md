@@ -11,9 +11,7 @@ To demonstrate this technique, we are going to use the tool called RemoteDLLInje
 
 ![Process Injection 1](https://user-images.githubusercontent.com/36422282/55604356-53ad5200-573d-11e9-80c9-4425c73844df.PNG)
 
-The Sysmon agent on the host is configured to detect DLL injection with CreateRemoteThread and LoadLibrary (Sysmon Event ID 8). 
-
-The configuration file for Event ID 8 we used is located at https://github.com/olafhartong/sysmon-modular/blob/master/8_create_remote_thread/include_dll_injection.xml
+The Sysmon agent on the host is configured to detect DLL injection with CreateRemoteThread and LoadLibrary (Sysmon Event ID 8). The configuration file for Sysmon Event ID 8 we used is located at https://github.com/olafhartong/sysmon-modular/blob/master/8_create_remote_thread/include_dll_injection.xml
 ![Process Injection 2](https://user-images.githubusercontent.com/36422282/55604548-53fa1d00-573e-11e9-86b3-8ac7a3138295.PNG)
 
 ## Splunk Filter

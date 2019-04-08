@@ -13,6 +13,8 @@ NOTE This filter is specific and relates to the specific attack itself, as requi
 
 ## Splunk Filter
 
+NOTE: This filter is specific and relates to the specific attack technique itself.
+
 host="DESKTOP-EHTEINI" CommandLine="csc.exe  /target:library T1118.cs" OR CommandLine="InstallUtil.exe  /logfile= /LogToConsole=false /U T1118.dll"
 
 #Splunk Capture 

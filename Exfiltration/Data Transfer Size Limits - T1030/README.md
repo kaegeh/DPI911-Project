@@ -14,7 +14,7 @@ In this scenario, an adversary simply exfiltrates data in fixed sizes, rather th
 - ls -l
 
 ## Splunk Filter
-NOTE This filter is specific and relates to the specific attack technique itself.
+NOTE: This filter is specific and relates to the specific attack technique itself.
 
 host="DESKTOP-H25LQ8L" * dd.exe *
 

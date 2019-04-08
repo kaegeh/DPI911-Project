@@ -12,6 +12,9 @@ NinjaCopy should be able to copy files that are specified.
 
 ## Detection
 ### Splunk Filter
+
+NOTE: This filter is specific and relates to the specific attack technique itself.
+
 Splunk Filter = host="DESKTOP-EHTEINI" source="XmlWinEventLog:Microsoft-Windows-PowerShell/Operational" EventCode=4104 "invoke-ninjacopy"
 
 ### Splunk Capture

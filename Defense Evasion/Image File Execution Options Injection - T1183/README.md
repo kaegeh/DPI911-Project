@@ -12,6 +12,8 @@ To demonstrate this technique, we are going to start evil.exe when notepad.exe e
 
 ## Splunk Filter
 
+NOTE: This filter is specific and relates to the specific attack technique itself.
+
 To detect the technique we demonstrated, we should monitor Microsoft-Windows-Sysmon/Operational Event IDs 12 and 13 (Registry object create/delete and registry value set respectively), looking for events from HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\
 
 

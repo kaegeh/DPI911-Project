@@ -13,6 +13,9 @@ The sessions should be hijacked and the adversary should be connected via RDP
 
 ## Detection
 ### Splunk Filter
+
+NOTE: This filter is specific and relates to the specific attack technique itself.
+
 Splunk Filter = host="DESKTOP-EHTEINI" source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" ParentCommandLine="cmd.exe /k *" OR ParentCommandLine="cmd.exe /c *" tscon.exe 
 
 ### Splunk Capture

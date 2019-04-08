@@ -13,6 +13,8 @@ To demonstrate this technique, we are going to use Powersploit's Get-ServiceUnqu
 
 ## Splunk Filter
 
+NOTE: This filter is specific and relates to the specific attack technique itself.
+
 To detect this technique, we should monitor Microsoft-Windows-PowerShell/Operational log for event code 4104 (command execution) entries. The command should contain the "Get-ServiceUnquoted" string (name of PowerSploit module, used to detect unquoted service paths, vulnerable to path interception).
 
 host="AGENT-2" source="WinEventLog:Microsoft-Windows-PowerShell/Operational" EventCode=4104 "Get-ServiceUnquoted"

@@ -12,6 +12,9 @@ Starting this service should run PowerShell and output the given sentence.
 ## Detection
 
 ### Filter
+
+NOTE: This filter is specific and relates to the specific attack technique itself.
+
 Splunk Filter = host="DESKTOP-EHTEINI" sc config CommandLine="sc  config Fax binPath= \"C:\\windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe -noexit -c \\\"write-host 'T1031 Test'\\\"\""
 
 ### Splunk Capture

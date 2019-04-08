@@ -13,11 +13,9 @@ In this scenario, an adversary simply exfiltrates data in fixed sizes, rather th
 - split -b 5000000 /tmp/victim-whole-file
 - ls -l
 
-*NOTE* This filter is specific and relates to the specific attack itself, as required to show correctnes within writing filters
-
 ## Splunk Filter
+NOTE This filter is specific and relates to the specific attack technique itself.
 
 host="DESKTOP-H25LQ8L" * dd.exe *
 
-## Splunk Capture
 ![deedee](https://user-images.githubusercontent.com/36422282/55600452-0d022c80-572a-11e9-89c1-6b58c399d4c6.PNG)

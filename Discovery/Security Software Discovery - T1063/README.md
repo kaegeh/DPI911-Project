@@ -13,6 +13,8 @@ To demonstrate this technique, specifically firewall enumeration, we are going t
 
 ## Splunk Filter
 
+NOTE: This filter is specific and relates to the specific attack technique itself.
+
 To detect the technique we demonstrated, we should monitor Microsoft-Windows-Sysmon/Operational for netsh advfirewall commands.
 
 host="AGENT-2" source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" CommandLine="netsh* advfirewall*"

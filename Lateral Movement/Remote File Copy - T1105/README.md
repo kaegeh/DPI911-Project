@@ -13,6 +13,8 @@ To demonstrate this technique, specifically using the certutil command, we are g
 
 ## Splunk Filter
 
+NOTE: This filter is specific and relates to the specific attack technique itself.
+
 To detect the technique we demonstrated, we should monitor Microsoft-Windows-Sysmon/Operational for certutil commands that have a URL as an argument.
 
 host="AGENT-2" source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" CommandLine="certutil* http*"

@@ -11,6 +11,8 @@ To demonstrate this technique, we ran PowerSploit's Find-AVSignature module. Thi
 
 ## Splunk Filter
 
+NOTE: This filter is specific and relates to the specific attack technique itself.
+
 To detect the technique we demonstrated, we should monitor Microsoft-Windows-PowerShell/Operational Event ID 4104 (command executed) events that contain the "Find-AVSignature" string, which would indicate execution of the PowerSploit module with the same name.
 
 host="AGENT-2" source="WinEventLog:Microsoft-Windows-PowerShell/Operational" EventCode="4104" "Find-AVSignature" 

@@ -13,6 +13,8 @@ To demonstrate this technique, we are going to use the net view command.
 
 ## Splunk Filter
 
+NOTE: This filter is specific and relates to the specific attack technique itself.
+
 To detect the technique we demonstrated, we should monitor Microsoft-Windows-Sysmon/Operational for net view commands.
 
 

@@ -19,4 +19,4 @@ NOTE: This filter is specific and relates to the specific attack technique itsel
 Splunk Filter = host="DESKTOP-EHTEINI" EventCode=4697
 
 ### Splunk capture
-![image](https://user-images.githubusercontent.com/36422282/55608548-afcba280-574c-11e9-9ac6-a50948bc59bf.png)
+![new service](https://user-images.githubusercontent.com/36422282/55976886-7bc81400-5c5b-11e9-86ec-d3dd5e0006fe.png)

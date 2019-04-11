@@ -18,4 +18,5 @@ NOTE: This filter is specific and relates to the specific attack technique itsel
 Splunk Filter = host="DESKTOP-EHTEINI" source="XmlWinEventLog:Microsoft-Windows-PowerShell/Operational" EventCode=4104 "invoke-ninjacopy"
 
 ### Splunk Capture
-![image](https://user-images.githubusercontent.com/36422282/55609125-f40b7280-574d-11e9-8174-870a33a38dd3.png)
+![ninjacopy](https://user-images.githubusercontent.com/36422282/55975220-7c5eab80-5c57-11e9-9bdc-41179663cade.png)
+

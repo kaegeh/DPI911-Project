@@ -19,4 +19,4 @@ NOTE: This filter is specific and relates to the specific attack technique itsel
 Splunk Filter = host="DESKTOP-EHTEINI" source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" ParentCommandLine="cmd.exe /k *" OR ParentCommandLine="cmd.exe /c *" tscon.exe 
 
 ### Splunk Capture
-![image](https://user-images.githubusercontent.com/36422282/55610392-cffd6080-5750-11e9-8672-11c2cc73b811.png)
+![rdp](https://user-images.githubusercontent.com/36422282/55976747-25f36c00-5c5b-11e9-94de-268119876eab.png)

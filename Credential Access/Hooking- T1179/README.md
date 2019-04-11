@@ -23,5 +23,6 @@ NOTE: This filter is specific and relates to the specific attack technique itsel
 Splunk Filter = host="DESKTOP-H25LQ8L" CommandLine=*mavinject.exe* 
 
 ### Splunk Capture
-![image](https://user-images.githubusercontent.com/36422282/55609631-249fdc00-574f-11e9-8011-0cac0b784aeb.png)
+![hooking](https://user-images.githubusercontent.com/36422282/55975129-44efff00-5c57-11e9-9e63-d8adf9c2069d.png)
+
 

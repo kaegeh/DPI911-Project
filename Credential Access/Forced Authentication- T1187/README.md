@@ -25,4 +25,5 @@ NOTE: This filter is specific and relates to the specific attack technique itsel
 Splunk Filter = host="DESKTOP-EHTEINI" source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" EventID=11 TargetFilename="*.scf"
 
 ### Splunk Capture
-![image](https://user-images.githubusercontent.com/36422282/55609437-acd1b180-574e-11e9-90c4-e1edc85fa316.png)
+![forced](https://user-images.githubusercontent.com/36422282/55975007-fa6e8280-5c56-11e9-82f3-d933c55abe23.png)
+

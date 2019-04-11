@@ -15,5 +15,4 @@ Malicious code should be run at start-up.
 Splunk Filter = host="DESKTOP-EHTEINI" source="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=13
 
 ### Splunk Capture
-![image](https://user-images.githubusercontent.com/36422282/55608872-616ad380-574d-11e9-8e65-8cf24f0213cd.png)
-
+![pm](https://user-images.githubusercontent.com/36422282/55976763-31469780-5c5b-11e9-9d25-cf0c5f1dc527.png)

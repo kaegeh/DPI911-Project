@@ -19,7 +19,7 @@ NOTE: This filter is specific and relates to the specific attack technique itsel
 Splunk Filter = host="DESKTOP-EHTEINI" ParentCommandLine="netsh  add helper NetshHelperBeacon.dll"
 
 ### Splunk Capture
-![image](https://user-images.githubusercontent.com/36422282/55608268-18fee600-574c-11e9-8dfc-2ebc408156fd.png)
+![netsh](https://user-images.githubusercontent.com/36422282/55976873-77036000-5c5b-11e9-950f-7488ab553ae6.png)
 
 ### Visibility- GRR
-![image](https://user-images.githubusercontent.com/36422282/55608292-2320e480-574c-11e9-96bf-0c2b01dcf476.png)
+![netsh 2](https://user-images.githubusercontent.com/36422282/55976875-78348d00-5c5b-11e9-8375-665ca76dca21.png)

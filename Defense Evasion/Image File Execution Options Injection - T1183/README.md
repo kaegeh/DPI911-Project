@@ -1,6 +1,6 @@
 # Image File Execution Options Injection - T1183
 
-## Description
+## Technique Description
 
 IFEO are used by attackers to hide execution of a process. For example, IFEOs can enable an arbitrary program to launch when another arbitrary program exits.
 

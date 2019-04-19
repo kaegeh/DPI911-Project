@@ -1,4 +1,4 @@
-333# Screen Capture - T1113
+# Screen Capture - T1113
 
 ## Description
 

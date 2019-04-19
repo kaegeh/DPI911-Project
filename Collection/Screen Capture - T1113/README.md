@@ -7,7 +7,7 @@ To demonstrate this technique, we ran PowerSploit's Get-TimedScreenshot module. 
 
 ## Assumptions
 
-Attackers have used the Get-TimedScreenshot powershell command on a compromised host, which forwards events to Splunk. The execution of this command should be captured in Splunk.
+Attacker had used the Get-TimedScreenshot powershell command on a compromised host, which forwards events to Splunk. The execution of this command should be captured in Splunk.
 
 ## Execution
 

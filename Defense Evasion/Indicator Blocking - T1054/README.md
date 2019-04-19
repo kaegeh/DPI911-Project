@@ -5,7 +5,7 @@
 Attackers can disable sensors or block traffic/events from being received by sensor to hinder detection. For example, if an attacker gets privileged access to a Splunk event forwarder, he may simply stop the Splunk process. It would prevent events from the compromised forwarder from going to the SIEM console.
 
 ## Assumptions
-
+Attacker had established privileged access to the compromised host and stopped Splunk Forwarder on that host.
 
 
 ## Execution

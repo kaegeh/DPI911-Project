@@ -1,6 +1,6 @@
 # Path Interception -- T1034
 
-## Description
+## Technique Description
 
 Path Interception happens when a malicious executable is placed in a specific path so that it is executed by an application instead of the intended legitimate executable. We will cover the Unquoted Paths vulnerability.
 

@@ -1,7 +1,7 @@
 
 # Process Injection -- T1055
 
-## Description
+## Technique Description
 
 Process Injection occurs when arbitrary code is executed in the memory address space of a separate live process. We will cover DLL injection which uses CreateRemoteThread function to start execution in the remote process. The DLL is loaded into the process by kernel32.dll and its LoadLibrary function.
 

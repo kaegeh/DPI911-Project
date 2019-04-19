@@ -1,6 +1,6 @@
 # Screen Capture - T1113
 
-## Description
+## Technique Description
 
 Attackers can capture the screen of a compromised host. 
 To demonstrate this technique, we ran PowerSploit's Get-TimedScreenshot module. This module can take screenshots at regular intervals and save them to a specified directory.

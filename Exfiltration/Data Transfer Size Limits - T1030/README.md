@@ -3,8 +3,10 @@
 
 ## Technique Description
 
-In this scenario, an adversary simply exfiltrates data in fixed sizes, rather than exfiltrating the file as a whole. The purposes of this is to try and evade detection, and avoid triggering alerts in NSM Tools. Red Atomic/Canary provide a proof of concept where the dd command-line utility for Linux is used for copying and converting files. The following will show the commands used to perform the attack, along with the Splunk Filter for detection
+In this scenario, an adversary simply exfiltrates data in fixed sizes, rather than exfiltrating the file as a whole. The purposes of this is to try and evade detection while also avoiding triggering alerts in NSM Tools. Red Atomic/Canary provide a proof of concept where the dd command-line utility for Linux is used for copying and converting files. The following will show the commands used to perform the attack, along with the Splunk Filter for detection
 
+## Assumptions
+The adversary uses the dd command-line utility to input random bytes into a file within the /tmp/ directory. Afterwards, they split the file into a 5MB size
 
 ## Execution
 

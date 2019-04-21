@@ -5,6 +5,7 @@
 Mshta.exe is a Microsoft Utility that allows for the execution of HTML applications. An attacker can leverage mshta.exe to execute malicious .hta files and execute Javascript or VBScript using the trusted Windows Utility. Red Atomic/Canary provided a proof-of-concept for this ATT&CK Mitre Execution Technique. Here's an example command that leverages using mshta.exe to launch calc.exe
 
 ## Assumption
+The adversary will leverage using mshta.exe to execute a remote script.
 
 ## Execution 
 
